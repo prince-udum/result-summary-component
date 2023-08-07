@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      .attribution a {
+        color: hsl(328, 95%, 47%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <article class="blue-bg">
+          <h4>Your Result</h4>
+          <div class="circle">
+            <p><span>76 </span> of 100</p>
+          </div>
+          <h2 class="big">Great</h2>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </article>
+        <article class="summary">
+          <h4>Summary</h4>
+          <div class="attributes">
+            <div class="tab">
+              <p>
+                <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+                Reaction
+              </p>
+              <p class="score"><span>80</span> / 100</p>
+            </div>
+            <div class="tab">
+              <p>
+                <img src="./assets/images/icon-memory.svg" alt="memory" />
+                Memory
+              </p>
+              <p class="score"><span>92</span> / 100</p>
+            </div>
+            <div class="tab">
+              <p>
+                <img src="./assets/images//icon-verbal.svg" alt="verbal" />
+                Verbal
+              </p>
+              <p class="score"><span>61</span> / 100</p>
+            </div>
+            <div class="tab">
+              <p>
+                <img src="./assets/images/icon-visual.svg" alt="visual" />Visual
+              </p>
+              <p class="score"><span>72</span> / 100</p>
+            </div>
+          </div>
+
+          <button class="btn">Continue</button>
+        </article>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Prince Udum</a>.
+    </footer>
+  </body>
+</html>
